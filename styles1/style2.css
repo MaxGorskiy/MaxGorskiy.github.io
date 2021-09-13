@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+img{
+	display: block;
+	width: 100%;
+}
+.wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+.left-side{
+	width: 25%;
+	min-width: 200px;
+	background: blue;
+	height: 100vh;
+
+}
+.left-img{
+	display: block;
+	width: 159px;
+	height: 159px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-image: url('https://www.cloudav.ru/upload/iblock/331/pandasecurity-How-do-hackers-pick-their-targets.jpg');
+	background-position: center center;
+	background-size: 133%;
+	margin-left: 15%;
+
+}
+.left-info{
+	color: #fff;
+
+}
+.title{
+	border-bottom: 1px solid #dadce0;
+	
+}
