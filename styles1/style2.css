@@ -14,11 +14,13 @@ img{
 	display: flex;
 	
 }
+a{
+	text-decoration: none;
+}
 .left-side{
 	width: 25%;
 	min-width: 200px;
-	background: blue;
-	height: 100vh;
+	background: grey;
 	padding-left: 10px;
 	padding-right: 10px;
 
@@ -42,7 +44,7 @@ img{
 }
 .title{
 	border-bottom: 1px solid #dadce0;
-	font-size:150%;
+	font-size:125%;
 
 }
 .info{
@@ -102,4 +104,62 @@ img{
 .date{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+.inst{
+	padding-top: 10px;
+ 	 font-family: 'Montserrat', sans-serif;;
+ 	 color: #fff;
+ 	 text-decoration: none;
+ 	 justify-content: space-between;
+}
+.inst-name{
+	padding-left: 35px;
+	font-size: 150%;
+	
 
+}
+.left-undertitle a{
+	color: black;
+
+}
+.subtitle-right-google:hover{
+	text-decoration: underline;
+
+}
+.subtitle-right-google{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5px;
+}
+
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	border-bottom: 1px solid grey;
+}
+nav ul li{
+	
+	padding: 5px;
+
+}
+nav ul li:last-child{
+	border-bottom: none;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+.subtitle a{
+	color: white;
+
+}
+.subtitle a:hover{
+	text-decoration: underline;
+}
+.inst a{
+	color: white;
+}
