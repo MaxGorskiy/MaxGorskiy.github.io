@@ -28,11 +28,11 @@ a{
 }
 .left-img{
 	display: block;
-	width: 159px;
-	height: 159px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	overflow: hidden;
-	background-image: url('https://www.cloudav.ru/upload/iblock/331/pandasecurity-How-do-hackers-pick-their-targets.jpg');
+	background-image: url('http://sun9-53.userapi.com/impf/c854420/v854420063/1fa8f/RgDOJ6kfGYg.jpg?size=1280x960&quality=96&sign=79e0a33df41c451187e92120a70b5446&type=album');
 	background-position: center center;
 	background-size: 133%;
 	margin-left: 15%;
@@ -44,7 +44,7 @@ a{
 }
 .title{
 	border-bottom: 1px solid #dadce0;
-	font-size:125%;
+	font-size:120%;
 
 }
 .info{
@@ -136,6 +136,7 @@ nav ul{
 	justify-content: space-between;
 	list-style: none;
 	border-bottom: 1px solid grey;
+	font-family: 'Roboto', sans-serif;
 }
 nav ul li{
 	
