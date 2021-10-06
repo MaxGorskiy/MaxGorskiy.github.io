@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: saddlebrown;
+}
+
+.wrapper{
+	width: 1100px;
+	height: 450px;
+	margin: 0 auto;
+	display: flex;
+	background-color: white;
+	margin-top: 40px;
+}
+.left-side-menu{
+	background-image: url(https://vivaitalia.com.ua/wp-content/uploads/2020/12/c3d2cf3f44e71632798e826da293625a-414x600.jpg);
+	width: 415px;
+	height: 450px;
+	display: flex;
+}
+.left-info{
+	width: 415px;
+	height: 200px;
+	background-color: black;
+
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	color: white;
+	position: absolute;
+	top: 150px;
+	text-align: center;
+}
+p span:last-child{
+	color: yellow;
+}
+p span:first-child{
+	font-size: 200%;
+	display: block;
+}
+p span{
+	padding-top: 70px;
+	padding-left: 70px;
+}
+.right-side-menu{
+	width: 685px;
+	height: 450px;
+
+}
+.right-title span{
+display: flex;
+margin-left: 300px;
+margin-top: 40px;
+font-size: 150%;
+
+
+}
+.right-menu-burger{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.right-menu{
+	width: 220px;
+	margin-left: 60px;
+	margin-right: 60px;
+
+	text-align: center;
+	
+	border-bottom:1px solid grey ;
+}
+.right-menu:after{
+	content:"\2666";
+	position: relative;
+	top: 9px;
+	color: grey;
+}
+.burgers{
+	font-size: 120%;
+	font-family: 'Scheherazade New', serif;
+	
+}
+.price{
+	color: grey;
+}
+.menu-btn{
+	display: flex;
+	width: 150px;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+	right: 130px;
+	align-items: center;
+	padding-left: 30px;
+	border-radius: 4px;
+	margin-top: 10px;
+
+
+}
+.menu-btn:hover{
+	background-color: grey;
+}
+.menu-btn a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
