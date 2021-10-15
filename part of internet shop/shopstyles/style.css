@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.title{
+	display: flex;
+	margin: 0 auto;
+	font-size: 175%;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.title span{
+	margin: 0 auto;
+}
+.wrap{
+	position: relative;
+	margin: 0 auto;
+	max-width: 960px;
+	height: 450px;
+	border: 1px solid silver;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.categories{
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 100%;
+	border-right: 1px solid silver;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+.subtitle{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	padding-top: 35px;
+	border-bottom: 1px solid silver;
+}
+.categories:last-child{
+	border-right: none;
+}
+.subtitle a{
+	text-decoration: none;
+	color: black;
+}
+.subtitle a:hover{
+	color: silver;
+}
+.images{
+	width: 100%;
+	
+	padding-top: 20px;
+	
+	text-align: center;
+
+}
+.images-href{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: DeepSkyBlue;
+}
+.images-href:active{
+	text-decoration: underline;
+
+}
+.images a{
+	text-decoration: none;
+	color: blue;
+	padding-top: 20px;
+	
+}
+
+.btn{
+	display: block;
+	position: absolute;
+	top: 380px;
+	left: 45px;
+	width: 150px;
+	height: 40px;
+	background: gold;
+	
+	padding-top: 10px;
+	text-align: center;
+}
+.btn-hover:hover{
+	background: khaki;
+}
+.btn-2{
+	background: mediumorchid;
+	color: white;
+	font-size: 80%;
+	padding-top: 7px;
+}
+.old-price{
+	
+	text-decoration: line-through;
+	padding-right: 3px;
+	padding-top: 20px;
+
+
+}
+.price{
+	padding-top: 20px;
+	height: 20px;
+	font-weight: bold;
+	font-size: 90%;
+}
+.price-row{
+	display: flex;
+	margin-left: 45px;
+}
+.stickers{
+	position: absolute;
+	top: -35px;
+	left: 150px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: DeepSkyBlue;
+	border: 3px solid white;
+	font-size: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.sticker-new{
+background-color:LimeGreen;
+}
+.slider-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid silver;
+	background-color: white;
+	font-size: 110%;
+	color: silver;
+}
+.slider-left{
+	position: absolute;
+	right: 938px;
+	top: 68px;
+	
+}
+.slider-right{
+	position: absolute;
+	right: -20px;
+	top:70px ;
+}
+.slider-item:hover{
+	background: grey;
+}
